@@ -12,22 +12,41 @@ html, body{
 
 body{
     background-image: url(imagens/fundo.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
+    background-position:  bottom bottom;
     
 }
-
-
-
 
 section#console {
+    margin: 0px 0px 0px 20px;
     position: absolute;
-    top: 80%;
-    left: 50%;
+    top: 50%;
+    left: 45%;
     transform: translate(-50%, -50%);
-    max-width: 550px;
-
     
-   
+   margin: auto;
 }
+
+section#personagens{
+    text-align: right;
+    padding: 8px;
+}
+
+section#personagens img{
+border-radius: 50%;
+box-shadow: 4px 4px 5px #00000062;
+box-sizing: border-box;
+max-width: 9vw;
+min-width: 5vw;
+
+}
+
+section#personagens a img:hover{
+    border: 4px solid #ffe600;   
+
+    box-shadow: 8px 8px 10px #00000056;
+   transition: translate(-2px, -2px);
+
+}
+
