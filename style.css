@@ -12,7 +12,7 @@ body {
 }
 
 body {
-    background: url(imagens/fundo.jpg) no-repeat  center;
+    background: url(imagens/fundo.jpg) no-repeat left center;
     background-attachment: fixed;
     background-size: cover;
 
@@ -26,7 +26,7 @@ main {
 section#console {
     position: absolute;
     top: 50%;
-    left: 60%;
+    left: 45%;
     transform: translate(-50%, -50%);
     background: url(imagens/game-boy.png) no-repeat  center;
 
@@ -45,23 +45,22 @@ iframe#videogame{
 
 }
 
-section#personagens{
-    padding: 5px 20px;
+section#personagens {
+    text-align: right;
+    padding: 5px 1px;
 }
 
 section#personagens img {
-    border-radius: 50%;
-    box-shadow: 4px 4px 5px #00000062;
-    box-sizing: border-box;
     width: 65px;
-
-
+    margin: 2px 4px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #00000062;
+    box-sizing: border-box;
 }
 
-section#personagens a img:hover {
-    border: 4px solid #ffe600;
-
-    box-shadow: 8px 8px 10px #00000056;
-    transition: translate(-2px, -2px);
-
+section#personagens img:hover {
+    border: 4px solid #e5ff00;
+    box-shadow: 5px 0px 10px #00000060;
+    transform: translate(-8px, -0px);
+    transition: .3s;
 }
